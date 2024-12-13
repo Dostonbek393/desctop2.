@@ -1,0 +1,145 @@
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/inter-v18-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/inter-v18-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/inter-v18-latin-700.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  background-color: #111;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 384px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 611px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.header__container {
+  border-radius: 1.2rem;
+  background-color: #1f1f1f;
+  border: 5px solid transparent;
+}
+
+.header__image {
+  margin-top: 4rem;
+  margin-bottom: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__text {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.header__description {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  text-align: center;
+  color: #c4f82a;
+  margin-top: 0.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.header__texts {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  text-align: center;
+  color: #ffffff;
+}
+.header__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2.4rem;
+  margin-bottom: 4rem;
+}
+
+.header__links__item {
+  width: 304px;
+  height: 45px;
+  background-color: #333333;
+  text-align: center;
+  margin-bottom: 1.6rem;
+  border-radius: 0.8rem;
+  border: 0.4rem;
+  padding: 1.2rem 9.4rem;
+}
+
+.header__links__item:hover {
+  background-color: #c4f82a;
+}
+
+.header__links__link {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
